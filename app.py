@@ -41,7 +41,7 @@ MAX_IMAGE_SIZE = 5 * 1024 * 1024
 # Demo admin credentials
 # Change this before real deployment.
 ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "admin")
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "Admin@12345")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD")
 ADMIN_PASSWORD_HASH = generate_password_hash(ADMIN_PASSWORD)
 
 
